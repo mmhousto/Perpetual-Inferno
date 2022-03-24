@@ -3,18 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerData
+  - Health
+  - Score
+  - Enemy
+  - MusicSlider
+  - MasterSlider
+  - Ground
+  - SpawnPoint
+  - Blaster
+  - PlayerMesh
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Walls
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - MiniMap
+  - Ground
+  - Player
+  - Projectile
   - 
   - 
   - 

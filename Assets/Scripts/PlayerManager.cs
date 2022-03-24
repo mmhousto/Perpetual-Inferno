@@ -37,14 +37,14 @@ namespace Com.MorganHouston.ZombCube
             healthBar.value = healthPoints;
             scoreText.text = "Score: " + currentPoints.ToString();
 
-            GetComponent<MeshRenderer>().material = blasterMaterial[player.currentSkin];
+            GameObject.FindWithTag("PlayerMesh").GetComponent<MeshRenderer>().material = blasterMaterial[player.currentSkin];
 
-            GameObject[] blaster = GameObject.FindGameObjectsWithTag("Blaster");
+            //GameObject[] blaster = GameObject.FindGameObjectsWithTag("Blaster");
 
-            foreach (GameObject item in blaster)
+            /*foreach (GameObject item in blaster)
             {
                 item.GetComponent<MeshRenderer>().material = blasterMaterial[player.currentBlaster];
-            }
+            }*/
         }
 
         // Update is called once per frame
